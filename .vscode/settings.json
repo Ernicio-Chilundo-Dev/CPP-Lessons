@@ -3,6 +3,7 @@
         "*.sqlbook": "sql",
         "*.ndjson": "jsonl",
         "*.dbclient-js": "javascript",
-        "vector": "cpp"
+        "vector": "cpp",
+        "new": "cpp"
     }
 }
