@@ -46,6 +46,14 @@ public:
 
 int main()
 {
+    Carro c1;
+    cout << c1.getNome() << " - " << c1.potencia << " - " << c1.getVelMax() << endl;
+
+    Carro c2{150,"Luxo"};
+    cout <<c2.getNome()<<" - "<<c2.potencia<<" - "<<c2.getVelMax()<<endl;
+
+    Carro c3{300,"Esportivo"};
+    cout << c3.getNome()<<" - "<<c3.potencia<<" - "<<c3.getVelMax()<<endl;
 
     return 0;
 }
