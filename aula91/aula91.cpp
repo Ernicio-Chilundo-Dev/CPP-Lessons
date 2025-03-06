@@ -9,25 +9,25 @@ int main()
     map<int, string> mp;
     map<int, string>::iterator it;
 
-    // mp[0] = "Preto";
-    // mp[1] = "Branco";
-    // mp[2] = "Vermelho";
-    // mp[3] = "Verde";
-    // mp[4] = "Azul";
+    mp[0] = "Preto";
+    mp[1] = "Branco";
+    mp[2] = "Vermelho";
+    mp[3] = "Verde";
+    mp[4] = "Azul";
 
-    // for (auto x : mp)
-    // {
-    //     cout << x.first << " - " << x.second << endl;
-    // }
+    for (auto x : mp)
+    {
+        cout << x.first << " - " << x.second << endl;
+    }
 
-    // cout << endl;
+    cout << endl;
 
-    // for (it = mp.begin(); it != mp.end(); it++)
-    // {
-    //     cout << it->first << " - " << it->second << endl;
-    // }
+    for (it = mp.begin(); it != mp.end(); it++)
+    {
+        cout << it->first << " - " << it->second << endl;
+    }
 
-    // cout << endl;
+    cout << endl;
 
     // //=====================================CAPACIDADE===================================================
     // map<char, int> mp1;
