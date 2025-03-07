@@ -30,9 +30,30 @@ int main()
 
     cout <<endl;
     
-    //exp = Valor expotencial
+    //exp = funcao exponencial
     double x2 = 10;
-    cout << "O valor expotencial de "<<x2<<": "<<exp(x2)<<endl;
+    cout << "O valor exponencial de "<<x2<<": "<<exp(x2)<<endl;
+
+    cout <<endl;
+
+    //log = Retorna logaritmo natural de um numero
+    double x3 = 10;
+    cout <<"O logaritmo de "<<x3<<": "<<log(x3)<<endl;
+
+    // pow = calcula a potencia de um numero base elevando a um expoente
+    double x4 = 10;
+    cout << "10 elevando a 2: "<<pow(x4,2)<<endl;
+    cout <<endl;
+
+    //sqrt = Calcula a raiz quandrada de um numero
+    double x5 = 9;
+    cout << "A raiz a quandrada de 9: "<<sqrt(x5)<<endl;
+    cout <<endl;
+
+    //cbrt (c++11) = Calcula a raiz cubica de numero
+    double x6 = 27;
+    cout <<"Raiz cubica de 27: "<<cbrt(x6)<<endl;
+    cout <<endl;
 
 
     return 0;
